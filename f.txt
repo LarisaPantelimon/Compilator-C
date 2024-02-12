@@ -1,0 +1,38 @@
+int a;
+int b;
+a=1;
+b=2;
+printf("Valorea lui a inainte de operatie este:");
+printf("%d",a);
+a=a+b; 
+printf("Valorea lui a de dupa operatie este:");
+printf("%d",a);
+
+if(a<2) { printf("adevarat");}
+else {printf("fals");}
+
+while(a>2)
+{
+    a=a-1;
+}
+
+{
+a=a/0;
+}
+double x=3.15;
+
+//am nevoie de valoarea lui x trunchiata
+
+int newX=(int)x; /* am trunchiat valoarea
+lui x */
+printf("Pentru ca a atins finalul acestui fisiser, adica programul a intalnit EOF, se va termina executia lui cu EROARE: syntax error");
+printf("Cand intalneste conditii: if sau else afiseaza valoarea de adevar a conditiei-- metoda de debug");
+int g;
+printf("Introduceti o valoare");
+scanf("%d",&g);
+printf("Valoarea lui g este %d",g);
+
+if((a>1)&&(g>1))
+{
+    printf("Conditie indeplinita");
+}
